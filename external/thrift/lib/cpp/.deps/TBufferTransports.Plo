@@ -1,0 +1,804 @@
+TBufferTransports.lo: src/thrift/transport/TBufferTransports.cpp \
+ /usr/include/c++/4.6/cassert /usr/include/assert.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/c++/4.6/algorithm /usr/include/c++/4.6/utility \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h \
+ /usr/include/c++/4.6/bits/stl_relops.h \
+ /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
+ /usr/include/c++/4.6/bits/concept_check.h \
+ /usr/include/c++/4.6/bits/stl_algobase.h \
+ /usr/include/c++/4.6/bits/functexcept.h \
+ /usr/include/c++/4.6/bits/exception_defines.h \
+ /usr/include/c++/4.6/bits/cpp_type_traits.h \
+ /usr/include/c++/4.6/ext/type_traits.h \
+ /usr/include/c++/4.6/ext/numeric_traits.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.6/bits/stl_iterator.h \
+ /usr/include/c++/4.6/debug/debug.h /usr/include/c++/4.6/bits/stl_algo.h \
+ /usr/include/c++/4.6/cstdlib /usr/include/stdlib.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/4.6/bits/algorithmfwd.h \
+ /usr/include/c++/4.6/initializer_list \
+ /usr/include/c++/4.6/bits/stl_heap.h \
+ /usr/include/c++/4.6/bits/stl_tempbuf.h \
+ /usr/include/c++/4.6/bits/stl_construct.h /usr/include/c++/4.6/new \
+ /usr/include/c++/4.6/exception src/thrift/transport/TBufferTransports.h \
+ /usr/include/c++/4.6/cstring /usr/include/string.h \
+ /usr/include/i386-linux-gnu/bits/string3.h \
+ /home/g/workspace/code/firtex2/external/boost/scoped_array.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/scoped_array.hpp \
+ /home/g/workspace/code/firtex2/external/boost/assert.hpp \
+ /usr/include/c++/4.6/iostream /usr/include/c++/4.6/ostream \
+ /usr/include/c++/4.6/ios /usr/include/c++/4.6/iosfwd \
+ /usr/include/c++/4.6/bits/stringfwd.h \
+ /usr/include/c++/4.6/bits/postypes.h /usr/include/c++/4.6/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/include/i386-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/4.6/bits/char_traits.h \
+ /usr/include/c++/4.6/bits/localefwd.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++locale.h \
+ /usr/include/c++/4.6/clocale /usr/include/locale.h \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/c++/4.6/cctype \
+ /usr/include/ctype.h /usr/include/c++/4.6/bits/ios_base.h \
+ /usr/include/c++/4.6/ext/atomicity.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/gthr.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/i386-linux-gnu/bits/sched.h \
+ /usr/include/i386-linux-gnu/bits/timex.h \
+ /usr/include/i386-linux-gnu/bits/setjmp.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/atomic_word.h \
+ /usr/include/c++/4.6/bits/locale_classes.h /usr/include/c++/4.6/string \
+ /usr/include/c++/4.6/bits/allocator.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h \
+ /usr/include/c++/4.6/ext/new_allocator.h \
+ /usr/include/c++/4.6/bits/ostream_insert.h \
+ /usr/include/c++/4.6/bits/cxxabi_forced.h \
+ /usr/include/c++/4.6/bits/stl_function.h \
+ /usr/include/c++/4.6/backward/binders.h \
+ /usr/include/c++/4.6/bits/range_access.h \
+ /usr/include/c++/4.6/bits/basic_string.h \
+ /usr/include/c++/4.6/bits/basic_string.tcc \
+ /usr/include/c++/4.6/bits/locale_classes.tcc \
+ /usr/include/c++/4.6/streambuf /usr/include/c++/4.6/bits/streambuf.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.h \
+ /usr/include/c++/4.6/bits/locale_facets.h /usr/include/c++/4.6/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_base.h \
+ /usr/include/c++/4.6/bits/streambuf_iterator.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_inline.h \
+ /usr/include/c++/4.6/bits/locale_facets.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.tcc \
+ /usr/include/c++/4.6/bits/ostream.tcc /usr/include/c++/4.6/istream \
+ /usr/include/c++/4.6/bits/istream.tcc \
+ /home/g/workspace/code/firtex2/external/boost/current_function.hpp \
+ /home/g/workspace/code/firtex2/external/boost/checked_delete.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/user.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/select_compiler_config.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/compiler/gcc.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/select_stdlib_config.hpp \
+ /usr/include/c++/4.6/cstddef \
+ /home/g/workspace/code/firtex2/external/boost/config/no_tr1/utility.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/stdlib/libstdcpp3.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/select_platform_config.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/platform/linux.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/posix_features.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/suffix.hpp \
+ /home/g/workspace/code/firtex2/external/boost/detail/workaround.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/operator_bool.hpp \
+ src/thrift/transport/TTransport.h src/thrift/Thrift.h ../../config.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h /usr/include/netinet/in.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/i386-linux-gnu/sys/socket.h \
+ /usr/include/i386-linux-gnu/sys/uio.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/socket.h \
+ /usr/include/i386-linux-gnu/bits/sockaddr.h \
+ /usr/include/i386-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/i386-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/i386-linux-gnu/bits/socket2.h \
+ /usr/include/i386-linux-gnu/bits/in.h /usr/include/inttypes.h \
+ /usr/include/c++/4.6/map /usr/include/c++/4.6/bits/stl_tree.h \
+ /usr/include/c++/4.6/bits/stl_map.h \
+ /usr/include/c++/4.6/bits/stl_multimap.h /usr/include/c++/4.6/list \
+ /usr/include/c++/4.6/bits/stl_list.h /usr/include/c++/4.6/bits/list.tcc \
+ /usr/include/c++/4.6/set /usr/include/c++/4.6/bits/stl_set.h \
+ /usr/include/c++/4.6/bits/stl_multiset.h /usr/include/c++/4.6/vector \
+ /usr/include/c++/4.6/bits/stl_uninitialized.h \
+ /usr/include/c++/4.6/bits/stl_vector.h \
+ /usr/include/c++/4.6/bits/stl_bvector.h \
+ /usr/include/c++/4.6/bits/vector.tcc /usr/include/c++/4.6/typeinfo \
+ /home/g/workspace/code/firtex2/external/boost/utility/enable_if.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_convertible.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/intrinsics.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/config.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_same.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/bool_trait_def.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/template_arity_spec.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/int.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/int_fwd.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/adl_barrier.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/adl.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/msvc.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/intel.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/gcc.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/workaround.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/nttp_decl.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/nttp.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/integral_wrapper.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/integral_c_tag.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/static_constant.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/static_cast.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/cat.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/config/config.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/template_arity_fwd.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/preprocessor/params.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/preprocessor.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/comma_if.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/punctuation/comma_if.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/control/if.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/control/iif.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/logical/bool.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/facilities/empty.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/punctuation/comma.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/repeat.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/repetition/repeat.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/debug/error.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/detail/auto_rec.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/tuple/eat.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/inc.hpp \
+ /home/g/workspace/code/firtex2/external/boost/preprocessor/arithmetic/inc.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/lambda.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/ttp.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/ctps.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/overload_resolution.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/integral_constant.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/bool.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/bool_fwd.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/integral_c.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/integral_c_fwd.hpp \
+ /home/g/workspace/code/firtex2/external/boost/mpl/aux_/lambda_support.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/bool_trait_undef.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_reference.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_lvalue_reference.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_rvalue_reference.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/ice.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/yes_no_type.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_or.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_and.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_not.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_eq.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_volatile.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/cv_traits_impl.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_array.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/add_reference.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/type_trait_def.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/detail/type_trait_undef.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_arithmetic.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_integral.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_float.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_void.hpp \
+ /home/g/workspace/code/firtex2/external/boost/type_traits/is_abstract.hpp \
+ src/thrift/TLogging.h /usr/include/i386-linux-gnu/sys/time.h \
+ /home/g/workspace/code/firtex2/external/boost/shared_ptr.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/shared_ptr.hpp \
+ /home/g/workspace/code/firtex2/external/boost/config/no_tr1/memory.hpp \
+ /usr/include/c++/4.6/memory \
+ /usr/include/c++/4.6/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.6/backward/auto_ptr.h \
+ /home/g/workspace/code/firtex2/external/boost/throw_exception.hpp \
+ /home/g/workspace/code/firtex2/external/boost/exception/detail/attribute_noreturn.hpp \
+ /home/g/workspace/code/firtex2/external/boost/exception/exception.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/shared_count.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/bad_weak_ptr.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ /home/g/workspace/code/firtex2/external/boost/detail/sp_typeinfo.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /usr/include/c++/4.6/functional \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_convertible.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/yield_k.hpp \
+ /home/g/workspace/code/firtex2/external/boost/memory_order.hpp \
+ src/thrift/transport/TTransportException.h \
+ src/thrift/transport/TVirtualTransport.h
+
+/usr/include/c++/4.6/cassert:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/include/c++/4.6/algorithm:
+
+/usr/include/c++/4.6/utility:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h:
+
+/usr/include/c++/4.6/bits/stl_relops.h:
+
+/usr/include/c++/4.6/bits/stl_pair.h:
+
+/usr/include/c++/4.6/bits/move.h:
+
+/usr/include/c++/4.6/bits/concept_check.h:
+
+/usr/include/c++/4.6/bits/stl_algobase.h:
+
+/usr/include/c++/4.6/bits/functexcept.h:
+
+/usr/include/c++/4.6/bits/exception_defines.h:
+
+/usr/include/c++/4.6/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.6/ext/type_traits.h:
+
+/usr/include/c++/4.6/ext/numeric_traits.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.6/bits/stl_iterator.h:
+
+/usr/include/c++/4.6/debug/debug.h:
+
+/usr/include/c++/4.6/bits/stl_algo.h:
+
+/usr/include/c++/4.6/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+/usr/include/c++/4.6/bits/algorithmfwd.h:
+
+/usr/include/c++/4.6/initializer_list:
+
+/usr/include/c++/4.6/bits/stl_heap.h:
+
+/usr/include/c++/4.6/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.6/bits/stl_construct.h:
+
+/usr/include/c++/4.6/new:
+
+/usr/include/c++/4.6/exception:
+
+src/thrift/transport/TBufferTransports.h:
+
+/usr/include/c++/4.6/cstring:
+
+/usr/include/string.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
+/home/g/workspace/code/firtex2/external/boost/scoped_array.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/scoped_array.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/assert.hpp:
+
+/usr/include/c++/4.6/iostream:
+
+/usr/include/c++/4.6/ostream:
+
+/usr/include/c++/4.6/ios:
+
+/usr/include/c++/4.6/iosfwd:
+
+/usr/include/c++/4.6/bits/stringfwd.h:
+
+/usr/include/c++/4.6/bits/postypes.h:
+
+/usr/include/c++/4.6/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/i386-linux-gnu/bits/wchar.h:
+
+/usr/include/i386-linux-gnu/bits/wchar2.h:
+
+/usr/include/c++/4.6/bits/char_traits.h:
+
+/usr/include/c++/4.6/bits/localefwd.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++locale.h:
+
+/usr/include/c++/4.6/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/i386-linux-gnu/bits/locale.h:
+
+/usr/include/c++/4.6/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.6/bits/ios_base.h:
+
+/usr/include/c++/4.6/ext/atomicity.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/gthr.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/i386-linux-gnu/bits/sched.h:
+
+/usr/include/i386-linux-gnu/bits/timex.h:
+
+/usr/include/i386-linux-gnu/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/i386-linux-gnu/bits/posix_opt.h:
+
+/usr/include/i386-linux-gnu/bits/environments.h:
+
+/usr/include/i386-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/atomic_word.h:
+
+/usr/include/c++/4.6/bits/locale_classes.h:
+
+/usr/include/c++/4.6/string:
+
+/usr/include/c++/4.6/bits/allocator.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h:
+
+/usr/include/c++/4.6/ext/new_allocator.h:
+
+/usr/include/c++/4.6/bits/ostream_insert.h:
+
+/usr/include/c++/4.6/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.6/bits/stl_function.h:
+
+/usr/include/c++/4.6/backward/binders.h:
+
+/usr/include/c++/4.6/bits/range_access.h:
+
+/usr/include/c++/4.6/bits/basic_string.h:
+
+/usr/include/c++/4.6/bits/basic_string.tcc:
+
+/usr/include/c++/4.6/bits/locale_classes.tcc:
+
+/usr/include/c++/4.6/streambuf:
+
+/usr/include/c++/4.6/bits/streambuf.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.h:
+
+/usr/include/c++/4.6/bits/locale_facets.h:
+
+/usr/include/c++/4.6/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_base.h:
+
+/usr/include/c++/4.6/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_inline.h:
+
+/usr/include/c++/4.6/bits/locale_facets.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.tcc:
+
+/usr/include/c++/4.6/bits/ostream.tcc:
+
+/usr/include/c++/4.6/istream:
+
+/usr/include/c++/4.6/bits/istream.tcc:
+
+/home/g/workspace/code/firtex2/external/boost/current_function.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/checked_delete.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/user.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/select_compiler_config.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/compiler/gcc.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/select_stdlib_config.hpp:
+
+/usr/include/c++/4.6/cstddef:
+
+/home/g/workspace/code/firtex2/external/boost/config/no_tr1/utility.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/stdlib/libstdcpp3.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/select_platform_config.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/platform/linux.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/posix_features.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/suffix.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/detail/workaround.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/operator_bool.hpp:
+
+src/thrift/transport/TTransport.h:
+
+src/thrift/Thrift.h:
+
+../../config.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/i386-linux-gnu/sys/socket.h:
+
+/usr/include/i386-linux-gnu/sys/uio.h:
+
+/usr/include/i386-linux-gnu/bits/uio.h:
+
+/usr/include/i386-linux-gnu/bits/socket.h:
+
+/usr/include/i386-linux-gnu/bits/sockaddr.h:
+
+/usr/include/i386-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/i386-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/i386-linux-gnu/bits/socket2.h:
+
+/usr/include/i386-linux-gnu/bits/in.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/c++/4.6/map:
+
+/usr/include/c++/4.6/bits/stl_tree.h:
+
+/usr/include/c++/4.6/bits/stl_map.h:
+
+/usr/include/c++/4.6/bits/stl_multimap.h:
+
+/usr/include/c++/4.6/list:
+
+/usr/include/c++/4.6/bits/stl_list.h:
+
+/usr/include/c++/4.6/bits/list.tcc:
+
+/usr/include/c++/4.6/set:
+
+/usr/include/c++/4.6/bits/stl_set.h:
+
+/usr/include/c++/4.6/bits/stl_multiset.h:
+
+/usr/include/c++/4.6/vector:
+
+/usr/include/c++/4.6/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.6/bits/stl_vector.h:
+
+/usr/include/c++/4.6/bits/stl_bvector.h:
+
+/usr/include/c++/4.6/bits/vector.tcc:
+
+/usr/include/c++/4.6/typeinfo:
+
+/home/g/workspace/code/firtex2/external/boost/utility/enable_if.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_convertible.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/intrinsics.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/config.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_same.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/bool_trait_def.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/template_arity_spec.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/int.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/int_fwd.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/adl_barrier.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/adl.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/msvc.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/intel.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/gcc.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/workaround.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/nttp_decl.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/nttp.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/integral_wrapper.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/integral_c_tag.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/static_constant.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/static_cast.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/cat.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/config/config.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/preprocessor/params.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/preprocessor.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/comma_if.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/punctuation/comma_if.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/control/if.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/control/iif.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/logical/bool.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/facilities/empty.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/punctuation/comma.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/repeat.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/repetition/repeat.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/debug/error.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/detail/auto_rec.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/tuple/eat.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/inc.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/preprocessor/arithmetic/inc.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/lambda.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/ttp.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/ctps.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/integral_constant.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/bool.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/bool_fwd.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/integral_c.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/integral_c_fwd.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/mpl/aux_/lambda_support.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/bool_trait_undef.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_reference.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_lvalue_reference.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_rvalue_reference.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/ice.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/yes_no_type.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_or.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_and.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_not.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/ice_eq.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_volatile.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/cv_traits_impl.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_array.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/add_reference.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/type_trait_def.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/detail/type_trait_undef.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_arithmetic.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_integral.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_float.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_void.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/type_traits/is_abstract.hpp:
+
+src/thrift/TLogging.h:
+
+/usr/include/i386-linux-gnu/sys/time.h:
+
+/home/g/workspace/code/firtex2/external/boost/shared_ptr.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/shared_ptr.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/config/no_tr1/memory.hpp:
+
+/usr/include/c++/4.6/memory:
+
+/usr/include/c++/4.6/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.6/backward/auto_ptr.h:
+
+/home/g/workspace/code/firtex2/external/boost/throw_exception.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/exception/detail/attribute_noreturn.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/exception/exception.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/shared_count.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/detail/sp_typeinfo.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/usr/include/c++/4.6/functional:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/smart_ptr/detail/yield_k.hpp:
+
+/home/g/workspace/code/firtex2/external/boost/memory_order.hpp:
+
+src/thrift/transport/TTransportException.h:
+
+src/thrift/transport/TVirtualTransport.h:

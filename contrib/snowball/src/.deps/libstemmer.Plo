@@ -1,0 +1,179 @@
+libstemmer.lo: stemmer/libstemmer/libstemmer.c /usr/include/stdlib.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h \
+ /usr/include/i386-linux-gnu/bits/string3.h \
+ stemmer/libstemmer/../include/libstemmer.h \
+ stemmer/libstemmer/../runtime/api.h stemmer/libstemmer/modules.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_danish.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_danish.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_dutch.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_dutch.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_english.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_english.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_finnish.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_finnish.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_french.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_french.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_german.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_german.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_hungarian.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_hungarian.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_italian.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_italian.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_norwegian.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_norwegian.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_porter.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_porter.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_portuguese.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_portuguese.h \
+ stemmer/libstemmer/../src_c/stem_KOI8_R_russian.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_russian.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_spanish.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_spanish.h \
+ stemmer/libstemmer/../src_c/stem_ISO_8859_1_swedish.h \
+ stemmer/libstemmer/../src_c/stem_UTF_8_swedish.h
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
+stemmer/libstemmer/../include/libstemmer.h:
+
+stemmer/libstemmer/../runtime/api.h:
+
+stemmer/libstemmer/modules.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_danish.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_danish.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_dutch.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_dutch.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_english.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_english.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_finnish.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_finnish.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_french.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_french.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_german.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_german.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_hungarian.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_hungarian.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_italian.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_italian.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_norwegian.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_norwegian.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_porter.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_porter.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_portuguese.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_portuguese.h:
+
+stemmer/libstemmer/../src_c/stem_KOI8_R_russian.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_russian.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_spanish.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_spanish.h:
+
+stemmer/libstemmer/../src_c/stem_ISO_8859_1_swedish.h:
+
+stemmer/libstemmer/../src_c/stem_UTF_8_swedish.h:

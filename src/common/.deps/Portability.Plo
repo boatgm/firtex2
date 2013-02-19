@@ -1,0 +1,14 @@
+Portability.lo: Portability.cpp ../../include/firtex/common/Portability.h \
+ ../../include/firtex/common/Platform.h \
+ ../../include/firtex/common/Compiler_GCC.h ../../include/firtex/config.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h
+
+../../include/firtex/common/Portability.h:
+
+../../include/firtex/common/Platform.h:
+
+../../include/firtex/common/Compiler_GCC.h:
+
+../../include/firtex/config.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:

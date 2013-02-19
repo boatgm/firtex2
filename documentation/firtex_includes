@@ -1,0 +1,485 @@
+.
+├── analyzer
+│   ├── AnalyzerFactory.h
+│   ├── Analyzer.h
+│   ├── AnalyzerMapper.h
+│   ├── DateTimeAnalyzer.h
+│   ├── DateTimeLexer.h
+│   ├── DoubleArrayTrie.h
+│   ├── FilterFactory.h
+│   ├── GBKTokenLexer.h
+│   ├── KeywordAnalyzer.h
+│   ├── LowercaseFilter.h
+│   ├── MaxForwardSegmenter.h
+│   ├── NumericAnalyzer.h
+│   ├── Segmenter.h
+│   ├── SingleWordAnalyzer.h
+│   ├── StandardAnalyzer.h
+│   ├── StandardStopFilter.h
+│   ├── StandardTokenizer.h
+│   ├── SynonymFilter.h
+│   ├── SynonymMap.h
+│   ├── TokenFilter.h
+│   ├── Token.h
+│   ├── Tokenizer.h
+│   ├── TokenSource.h
+│   ├── TokenView.h
+│   ├── UnigramSegmenter.h
+│   ├── UTF8TokenLexer.h
+│   └── WhitespaceAnalyzer.h
+├── common
+│   ├── Any.h
+│   ├── AppenderFactory.h
+│   ├── Appender.h
+│   ├── BasicLoggingLayout.h
+│   ├── Common.h
+│   ├── Compiler_GCC.h
+│   ├── Compiler_IC.h
+│   ├── Compiler_VC.h
+│   ├── ConsoleAppender.h
+│   ├── FileAppender.h
+│   ├── IndexDefines.h
+│   ├── IntTypes.h
+│   ├── IO.h
+│   ├── IO_POSIX.h
+│   ├── IO_WIN32.h
+│   ├── LayoutAppender.h
+│   ├── Logger.h
+│   ├── LoggingEvent.h
+│   ├── LoggingLayoutFactory.h
+│   ├── LoggingLayout.h
+│   ├── LoggingLevel.h
+│   ├── Notifiable.h
+│   ├── Notification.h
+│   ├── Notifier.h
+│   ├── PatternLoggingLayout.h
+│   ├── Platform.h
+│   ├── Portability.h
+│   ├── RefCountedObject.h
+│   ├── SharedPtr.h
+│   ├── StdHeader.h
+│   ├── tchar.h
+│   └── TypeDefs.h
+├── config
+│   ├── Configurable.h
+│   ├── Configurator.h
+│   ├── GlobalConfig.h
+│   └── XMLConfigurator.h
+├── config.h
+├── config.h.in
+├── document
+│   ├── AnalyzedDocument.h
+│   ├── AnalyzedField.h
+│   ├── BuiltInFieldDefinition.h
+│   ├── Document.h
+│   ├── DocumentSchema.h
+│   ├── DocumentType.h
+│   ├── FieldDefinition.h
+│   ├── Field.h
+│   ├── FieldSchema.h
+│   ├── FieldType.h
+│   └── TypedDocument.h
+├── FirteX.h
+├── firtex_includes
+├── index
+│   ├── AsyncCommitScheduler.h
+│   ├── AsyncDocumentConsumer.h
+│   ├── BarrelDirectory.h
+│   ├── BarrelsInfo.h
+│   ├── BarrelTermPositionIterator.h
+│   ├── BarrelTermPostingIterator.h
+│   ├── ByteSlice.h
+│   ├── ByteSliceInputStream.h
+│   ├── ByteSliceOutputStream.h
+│   ├── CommitCondition.h
+│   ├── CommitList.h
+│   ├── CommitScheduler.h
+│   ├── Committable.h
+│   ├── common
+│   │   ├── IndexKeyHasher.h
+│   │   ├── PostingTraits.h
+│   │   ├── TypedIndexer.h
+│   │   ├── TypedInMemTermIterator.h
+│   │   ├── TypedInMemTermReader.h
+│   │   ├── TypedTermIterator.h
+│   │   └── TypedTermReader.h
+│   ├── ComponentBuilder.h
+│   ├── ComponentCreatorFactory.h
+│   ├── compress
+│   │   ├── Coding.h
+│   │   ├── OptPForDeltaCoding.h
+│   │   ├── Pack.h
+│   │   ├── S16Coding.h
+│   │   └── Unpack.h
+│   ├── ConcurrentMergeScheduler.h
+│   ├── datetime
+│   │   ├── DateTimeComponentCreator.h
+│   │   ├── DateTimeIndexer.h
+│   │   ├── DateTimeIndexMerger.h
+│   │   ├── DateTimeTermIterator.h
+│   │   ├── DateTimeTermReader.h
+│   │   ├── InMemDateTimeTermIterator.h
+│   │   └── InMemDateTimeTermReader.h
+│   ├── DBTMergePolicy.h
+│   ├── DeletedDocumentFilter.h
+│   ├── DictLoader.h
+│   ├── DocIdRecycling.h
+│   ├── DocPostingDecoder.h
+│   ├── DocPostingMerger.h
+│   ├── DocPostingWriter.h
+│   ├── DocSkipListReader.h
+│   ├── DocSkipListWriter.h
+│   ├── DocSkipPoint.h
+│   ├── DocumentConsumer.h
+│   ├── FieldComponentCreator.h
+│   ├── FieldFilter.h
+│   ├── FieldIndexer.h
+│   ├── FieldMerger.h
+│   ├── FieldSelector.h
+│   ├── forwardindex
+│   │   ├── PrimitiveTypeForwardIndexCreator.h
+│   │   ├── PrimitiveTypeForwardIndexIterator.h
+│   │   ├── PrimitiveTypeForwardIndexMerger.h
+│   │   ├── PrimitiveTypeForwardIndexReader.h
+│   │   ├── PrimitiveTypeForwardIndexReaderImpl.h
+│   │   ├── PrimitiveTypeForwardIndexReaderMMapImpl.h
+│   │   └── PrimitiveTypeForwardIndexWriter.h
+│   ├── ForwardIndexCreator.h
+│   ├── ForwardIndexFactory.h
+│   ├── ForwardIndexIterator.h
+│   ├── ForwardIndexIteratorTraits.h
+│   ├── ForwardIndexMerger.h
+│   ├── ForwardIndexReader.h
+│   ├── ForwardIndexWriter.h
+│   ├── IndexBarrelKeeper.h
+│   ├── IndexBarrelReader.h
+│   ├── IndexBarrelWriter.h
+│   ├── IndexCleanerFactory.h
+│   ├── IndexCleaner.h
+│   ├── Index.h
+│   ├── IndexMerger.h
+│   ├── IndexReader.h
+│   ├── IndexSchema.h
+│   ├── IndexWriter.h
+│   ├── IndexWriterNotification.h
+│   ├── InMemDocPostingDecoder.h
+│   ├── InMemIndexBarrelReader.h
+│   ├── InMemIndexMerger.h
+│   ├── InMemoryTermReader.h
+│   ├── InMemPosPostingDecoder.h
+│   ├── KeepByCommitIndexCleaner.h
+│   ├── keyword
+│   │   ├── InMemKeywordTermIterator.h
+│   │   ├── InMemKeywordTermReader.h
+│   │   ├── KeywordComponentCreator.h
+│   │   ├── KeywordIndexer.h
+│   │   ├── KeywordIndexMerger.h
+│   │   ├── KeywordTermIterator.h
+│   │   └── KeywordTermReader.h
+│   ├── LengthNormEncoder.h
+│   ├── LengthNormIterator.h
+│   ├── LengthNormMerger.h
+│   ├── LengthNormReader.h
+│   ├── LengthNormWriter.h
+│   ├── Mergeable.h
+│   ├── MergeInfo.h
+│   ├── MergePolicyFactory.h
+│   ├── MergePolicy.h
+│   ├── MergeProposal.h
+│   ├── MergeScheduler.h
+│   ├── MultiFieldTermReader.h
+│   ├── MultiIndexBarrelReader.h
+│   ├── MultiIndex.h
+│   ├── MultiIndexReader.h
+│   ├── MultiPostingDecoder.h
+│   ├── MultiStoredFieldsReader.h
+│   ├── MultiTermIterator.h
+│   ├── MultiTermPostingIterator.h
+│   ├── MultiTermReader.h
+│   ├── NoMergePolicy.h
+│   ├── numeric
+│   │   ├── InMemSimpleNumericTermIterator.h
+│   │   ├── InMemSimpleNumericTermReader.h
+│   │   ├── NumericHasher.h
+│   │   ├── SimpleNumericComponentCreator.h
+│   │   ├── SimpleNumericIndexer.h
+│   │   ├── SimpleNumericIndexMerger.h
+│   │   ├── SimpleNumericTermIterator.h
+│   │   └── SimpleNumericTermReader.h
+│   ├── OptimizeMergePolicy.h
+│   ├── OptPFDPostingCoding.h
+│   ├── PosPostingDecoder.h
+│   ├── PosPostingMerger.h
+│   ├── PosPostingWriter.h
+│   ├── PosSkipListReader.h
+│   ├── PosSkipListWriter.h
+│   ├── PostingCodingFactory.h
+│   ├── PostingCoding.h
+│   ├── PostingDecoder.h
+│   ├── PostingMerger.h
+│   ├── PostingPool.h
+│   ├── PostingWriter.h
+│   ├── primarykey
+│   │   ├── PrimaryKeyCreator.h
+│   │   ├── PrimaryKeyIndexer.h
+│   │   ├── PrimaryKeyMerger.h
+│   │   ├── PrimaryKeyPostingDecoder.h
+│   │   ├── PrimaryKeyPostingIterator.h
+│   │   ├── PrimaryKeyTermIterator.h
+│   │   └── PrimaryKeyTermReader.h
+│   ├── PrimaryKeyIndex.h
+│   ├── ResultDoc.h
+│   ├── SequenceMergeScheduler.h
+│   ├── SingleIndexBarrelReader.h
+│   ├── StoredFieldsMerger.h
+│   ├── StoredFieldsReader.h
+│   ├── StoredFieldsReaderImpl.h
+│   ├── StoredFieldsWriter.h
+│   ├── SyncCommitScheduler.h
+│   ├── Term.h
+│   ├── TermInfo.h
+│   ├── TermIterator.h
+│   ├── TermMeta.h
+│   ├── TermPostingIterator.h
+│   ├── TermReader.h
+│   ├── text
+│   │   ├── InMemTextTermIterator.h
+│   │   ├── InMemTextTermReader.h
+│   │   ├── TextComponentCreator.h
+│   │   ├── TextIndexer.h
+│   │   ├── TextIndexMerger.h
+│   │   ├── TextTermIterator.h
+│   │   └── TextTermReader.h
+│   ├── TypedDict.h
+│   ├── TypedDictWriter.h
+│   ├── TypedDocPostingWriter.h
+│   ├── TypedForwardIndexIterator.h
+│   ├── TypedPosPostingWriter.h
+│   ├── TypedSkipListReader.h
+│   ├── TypedSkipListWriter.h
+│   └── TypedTerm.h
+├── queryparser
+│   ├── DefaultExprEvaluatorBuilder.h
+│   ├── DefaultQueryBuilder.h
+│   ├── ExprEvaluatorBuilder.h
+│   ├── ExprLexer.h
+│   ├── ExprNode.h
+│   ├── ExprOptimizer.h
+│   ├── ExprParser.h
+│   ├── FlexLexer.h
+│   ├── QueryBuilder.h
+│   ├── QueryExpr.h
+│   ├── QueryExprLexer.h
+│   ├── QueryExprParser.h
+│   └── QueryParser.h
+├── search
+│   ├── AndQueryExecutor.h
+│   ├── ArgListExprEvaluator.h
+│   ├── AttrExprEvaluator.h
+│   ├── BinaryExprEvaluator.h
+│   ├── BM25Scorer.h
+│   ├── BooleanQueryExecutorBuilder.h
+│   ├── BooleanQuery.h
+│   ├── Clause.h
+│   ├── ConstExprEvaluator.h
+│   ├── DefaultSimilarity.h
+│   ├── DocScoreFeature.h
+│   ├── DocSelectClause.h
+│   ├── ExprEvaluator.h
+│   ├── FeatureProvider.h
+│   ├── FieldSelectClause.h
+│   ├── FilterClause.h
+│   ├── Filter.h
+│   ├── HitCollector.h
+│   ├── HitQueue.h
+│   ├── IndexFeature.h
+│   ├── IndexSearcher.h
+│   ├── InExprEvaluator.h
+│   ├── MatchComparator.h
+│   ├── MatchedDoc.h
+│   ├── MatchedDocSet.h
+│   ├── OrQueryExecutor.h
+│   ├── ParameterClause.h
+│   ├── PhraseQueryExecutor.h
+│   ├── PhraseQuery.h
+│   ├── QueryClause.h
+│   ├── QueryExecutor.h
+│   ├── QueryFeature.h
+│   ├── Query.h
+│   ├── QueryHits.h
+│   ├── QueryResult.h
+│   ├── QueryTracerAppender.h
+│   ├── QueryTracer.h
+│   ├── RangeQuery.h
+│   ├── ReqOptQueryExecutor.h
+│   ├── ReqProhQueryExecutor.h
+│   ├── ResultCollector.h
+│   ├── ResultCollectorImpl.h
+│   ├── ResultFormatter.h
+│   ├── ResultParser.h
+│   ├── ScoredDoc.h
+│   ├── Scorer.h
+│   ├── ScorerProfileFactory.h
+│   ├── ScorerProfile.h
+│   ├── Similarity.h
+│   ├── SimpleHitCollector.h
+│   ├── SortClause.h
+│   ├── SortedHitCollector.h
+│   ├── Sorter.h
+│   ├── Statement.h
+│   ├── TermQueryExecutor.h
+│   ├── TermQueryFeature.h
+│   ├── TermQuery.h
+│   ├── TermScoreFeature.h
+│   ├── TernaryExprEvaluator.h
+│   ├── UnaryExprEvaluator.h
+│   ├── XMLResultFormatter.h
+│   └── XMLResultParser.h
+├── stamp-h1
+├── store
+│   ├── BlockFileInputStream.h
+│   ├── BlockFileOutputStream.h
+│   ├── BlockFileSystem.h
+│   ├── FileSystemFactory.h
+│   ├── FileSystem.h
+│   ├── InputStream.h
+│   ├── InputStreamPool.h
+│   ├── LocalFileOutputStream.h
+│   ├── MMapFileInputStream.h
+│   ├── MMapFileSystem.h
+│   └── OutputStream.h
+├── thread
+│   ├── atomic
+│   │   ├── Atomic_GCC_IA64.h
+│   │   ├── Atomic_GCC_PPC64.h
+│   │   ├── Atomic_GCC_SPARC.h
+│   │   ├── Atomic_GCC_X86_64.h
+│   │   ├── Atomic_GCC_X86_atomic_bool.h
+│   │   ├── Atomic_GCC_X86_cas32.h
+│   │   ├── Atomic_GCC_X86_fence.h
+│   │   ├── Atomic_GCC_X86.h
+│   │   ├── Atomic_GCC_X86_load32.h
+│   │   ├── Atomic_GCC_X86_loadptr.h
+│   │   ├── Atomic_GCC_X86_spinlock.h
+│   │   ├── Atomic_GCC_X86_store32.h
+│   │   ├── Atomic_GCC_X86_storeptr.h
+│   │   ├── Atomic_GCC_X86_xadd32.h
+│   │   ├── Atomic_GCC_X86_xchg32.h
+│   │   ├── AtomicImpl.h
+│   │   ├── AtomicIntegrals.h
+│   │   ├── AtomicInt.h
+│   │   ├── AtomicOperations.h
+│   │   ├── AtomicTypedOps.h
+│   │   ├── Atomic_VC_X86_64.h
+│   │   ├── Atomic_VC_X86.h
+│   │   ├── Barrier_GCC.h
+│   │   ├── Barrier.h
+│   │   ├── Barrier_VC.h
+│   │   ├── IsAligned.h
+│   │   └── MemoryOrder.h
+│   ├── AtomicCount_GCC.h
+│   ├── AtomicCount_GCC_X86.h
+│   ├── AtomicCount.h
+│   ├── AtomicCount_PTHREADS.h
+│   ├── AtomicCount_SYNC.h
+│   ├── AtomicCount_WIN32.h
+│   ├── Atomic.h
+│   ├── Condition.h
+│   ├── Event.h
+│   ├── Event_POSIX.h
+│   ├── Event_WIN32.h
+│   ├── FastMutex.h
+│   ├── FastMutex_POSIX.h
+│   ├── HPSMR.h
+│   ├── interlocked.h
+│   ├── Mutex.h
+│   ├── Mutex_POSIX.h
+│   ├── Mutex_WIN32.h
+│   ├── Runnable.h
+│   ├── RWLock.h
+│   ├── RWLock_POSIX.h
+│   ├── RWLock_WIN32.h
+│   ├── ScopedLock.h
+│   ├── ScopedUnlock.h
+│   ├── StoppableObject.h
+│   ├── SynchronizedObject.h
+│   ├── Thread.h
+│   ├── ThreadLocal.h
+│   ├── ThreadPool.h
+│   ├── Thread_POSIX.h
+│   ├── Thread_WIN32.h
+│   ├── TSS.h
+│   ├── TSS_MACOS.h
+│   ├── TSS_POSIX.h
+│   └── TSS_WIN32.h
+└── utility
+    ├── AutoPtr.h
+    ├── BinaryFile.h
+    ├── BinaryFile_POSIX.h
+    ├── BinaryFile_WIN32.h
+    ├── BitVector.h
+    ├── BoundedChunkAllocator.h
+    ├── BoundedConcurrentHashMap.h
+    ├── BoundedConcurrentQueue.h
+    ├── Charset.h
+    ├── ConcurrentLinkedQueue.h
+    ├── ConcurrentList.h
+    ├── DateTime.h
+    ├── DirectoryIterator.h
+    ├── DirectoryIterator_POSIX.h
+    ├── DirectoryIterator_WIN32.h
+    ├── Environment.h
+    ├── Environment_LINUX.h
+    ├── Environment_WIN32.h
+    ├── Exception.h
+    ├── File.h
+    ├── File_LINUX.h
+    ├── File_WIN32.h
+    ├── HashComparator.h
+    ├── Hash.h
+    ├── HashMap.h
+    ├── IconvWrapper.h
+    ├── Iterator.h
+    ├── KeyValueParser.h
+    ├── LinkedHashMap.h
+    ├── LooseBoundedPool.h
+    ├── MiscUtil.h
+    ├── MMapFile.h
+    ├── MMapFile_POSIX.h
+    ├── MMapFile_WIN32.h
+    ├── NonCopyable.h
+    ├── NumberFormatter.h
+    ├── Number.h
+    ├── NumberParser.h
+    ├── Path.h
+    ├── Path_LINUX.h
+    ├── Path_WIN32.h
+    ├── Pool.h
+    ├── PriorityQueue.h
+    ├── rapidxml.hpp
+    ├── rapidxml_print.hpp
+    ├── Reader.h
+    ├── SimpleAllocator.h
+    ├── SimpleSegregatedAllocator.h
+    ├── Singleton.h
+    ├── SlicedVector.h
+    ├── SmallFloat.h
+    ├── String.h
+    ├── StringPool.h
+    ├── StringReader.h
+    ├── StringTokenizer.h
+    ├── StringUtils.h
+    ├── SynchronizedQueue.h
+    ├── SyncSegregatedAllocator.h
+    ├── SystemInitializer.h
+    ├── TextFile.h
+    ├── TimeProbe.h
+    ├── Timespan.h
+    ├── Timestamp.h
+    ├── TypedSimpleChunkedPool.h
+    ├── URLDecoder.h
+    ├── XMLDocumentWrapper.h
+    ├── ZIPFile.h
+    └── ZLib.h
+
+19 directories, 463 files

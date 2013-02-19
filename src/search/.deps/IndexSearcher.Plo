@@ -1,0 +1,1140 @@
+IndexSearcher.lo: IndexSearcher.cpp \
+ ../../include/firtex/search/IndexSearcher.h \
+ ../../include/firtex/common/StdHeader.h \
+ ../../include/firtex/common/Common.h \
+ ../../include/firtex/common/IndexDefines.h \
+ ../../include/firtex/common/Platform.h \
+ ../../include/firtex/common/Compiler_GCC.h \
+ ../../include/firtex/common/IntTypes.h /usr/include/c++/4.6/limits \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h \
+ /usr/include/c++/4.6/ostream /usr/include/c++/4.6/ios \
+ /usr/include/c++/4.6/iosfwd /usr/include/c++/4.6/bits/stringfwd.h \
+ /usr/include/c++/4.6/bits/postypes.h /usr/include/c++/4.6/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/wchar2.h /usr/include/c++/4.6/exception \
+ /usr/include/c++/4.6/bits/char_traits.h \
+ /usr/include/c++/4.6/bits/stl_algobase.h \
+ /usr/include/c++/4.6/bits/functexcept.h \
+ /usr/include/c++/4.6/bits/exception_defines.h \
+ /usr/include/c++/4.6/bits/cpp_type_traits.h \
+ /usr/include/c++/4.6/ext/type_traits.h \
+ /usr/include/c++/4.6/ext/numeric_traits.h \
+ /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
+ /usr/include/c++/4.6/bits/concept_check.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.6/bits/stl_iterator.h \
+ /usr/include/c++/4.6/debug/debug.h /usr/include/c++/4.6/bits/localefwd.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++locale.h \
+ /usr/include/c++/4.6/clocale /usr/include/locale.h \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/c++/4.6/cctype \
+ /usr/include/ctype.h /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/c++/4.6/bits/ios_base.h \
+ /usr/include/c++/4.6/ext/atomicity.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/gthr.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/bits/sched.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/timex.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/i386-linux-gnu/bits/setjmp.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/atomic_word.h \
+ /usr/include/c++/4.6/bits/locale_classes.h /usr/include/c++/4.6/string \
+ /usr/include/c++/4.6/bits/allocator.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h \
+ /usr/include/c++/4.6/ext/new_allocator.h /usr/include/c++/4.6/new \
+ /usr/include/c++/4.6/bits/ostream_insert.h \
+ /usr/include/c++/4.6/bits/cxxabi_forced.h \
+ /usr/include/c++/4.6/bits/stl_function.h \
+ /usr/include/c++/4.6/backward/binders.h \
+ /usr/include/c++/4.6/bits/range_access.h \
+ /usr/include/c++/4.6/bits/basic_string.h \
+ /usr/include/c++/4.6/initializer_list \
+ /usr/include/c++/4.6/bits/basic_string.tcc \
+ /usr/include/c++/4.6/bits/locale_classes.tcc \
+ /usr/include/c++/4.6/streambuf /usr/include/c++/4.6/bits/streambuf.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.h \
+ /usr/include/c++/4.6/bits/locale_facets.h /usr/include/c++/4.6/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_base.h \
+ /usr/include/c++/4.6/bits/streambuf_iterator.h \
+ /usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_inline.h \
+ /usr/include/c++/4.6/bits/locale_facets.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.tcc \
+ /usr/include/c++/4.6/bits/ostream.tcc /usr/include/inttypes.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ ../../include/firtex/common/TypeDefs.h /usr/include/c++/4.6/cstddef \
+ ../../include/firtex/common/tchar.h \
+ ../../include/firtex/common/Portability.h ../../include/firtex/config.h \
+ ../../include/firtex/common/Logger.h \
+ ../../include/firtex/common/SharedPtr.h \
+ ../../include/firtex/utility/Exception.h \
+ ../../include/firtex/utility/StringUtils.h /usr/include/c++/4.6/vector \
+ /usr/include/c++/4.6/bits/stl_construct.h \
+ /usr/include/c++/4.6/bits/stl_uninitialized.h \
+ /usr/include/c++/4.6/bits/stl_vector.h \
+ /usr/include/c++/4.6/bits/stl_bvector.h \
+ /usr/include/c++/4.6/bits/vector.tcc /usr/include/c++/4.6/cstring \
+ /usr/include/string.h /usr/include/i386-linux-gnu/bits/string3.h \
+ /usr/include/c++/4.6/sstream /usr/include/c++/4.6/istream \
+ /usr/include/c++/4.6/bits/istream.tcc \
+ /usr/include/c++/4.6/bits/sstream.tcc /usr/include/c++/4.6/algorithm \
+ /usr/include/c++/4.6/utility /usr/include/c++/4.6/bits/stl_relops.h \
+ /usr/include/c++/4.6/bits/stl_algo.h /usr/include/c++/4.6/cstdlib \
+ /usr/include/stdlib.h /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/4.6/bits/algorithmfwd.h \
+ /usr/include/c++/4.6/bits/stl_heap.h \
+ /usr/include/c++/4.6/bits/stl_tempbuf.h /usr/include/c++/4.6/iostream \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h /usr/include/assert.h \
+ ../../include/firtex/thread/AtomicCount.h \
+ ../../include/firtex/thread/Atomic.h \
+ ../../include/firtex/thread/atomic/MemoryOrder.h \
+ ../../include/firtex/thread/atomic/AtomicOperations.h \
+ ../../include/firtex/thread/atomic/AtomicImpl.h \
+ ../../include/firtex/thread/atomic/Barrier.h \
+ ../../include/firtex/thread/atomic/Barrier_GCC.h \
+ ../../include/firtex/thread/atomic/AtomicIntegrals.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_fence.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_cas32.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_xchg32.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_xadd32.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_load32.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_store32.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_loadptr.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_storeptr.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_spinlock.h \
+ ../../include/firtex/thread/atomic/Atomic_GCC_X86_atomic_bool.h \
+ ../../include/firtex/thread/atomic/IsAligned.h \
+ ../../include/firtex/thread/atomic/AtomicTypedOps.h \
+ ../../include/firtex/thread/atomic/AtomicInt.h \
+ ../../include/firtex/common/Appender.h \
+ ../../include/firtex/config/Configurable.h \
+ ../../include/firtex/utility/Singleton.h \
+ ../../include/firtex/thread/FastMutex.h \
+ ../../include/firtex/utility/NonCopyable.h \
+ ../../include/firtex/thread/ScopedLock.h \
+ ../../include/firtex/thread/FastMutex_POSIX.h \
+ ../../include/firtex/thread/Mutex_POSIX.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ ../../include/firtex/common/LoggingLevel.h \
+ ../../include/firtex/common/LoggingEvent.h \
+ ../../include/firtex/utility/Timestamp.h /usr/include/c++/4.6/ctime \
+ ../../include/firtex/thread/Thread.h \
+ ../../include/firtex/thread/ThreadLocal.h /usr/include/c++/4.6/map \
+ /usr/include/c++/4.6/bits/stl_tree.h /usr/include/c++/4.6/bits/stl_map.h \
+ /usr/include/c++/4.6/bits/stl_multimap.h \
+ ../../include/firtex/thread/Thread_POSIX.h \
+ ../../include/firtex/thread/Runnable.h \
+ ../../include/firtex/thread/Event.h \
+ ../../include/firtex/thread/Event_POSIX.h \
+ ../../include/firtex/thread/RWLock.h \
+ ../../include/firtex/thread/RWLock_POSIX.h /usr/include/signal.h \
+ /usr/include/i386-linux-gnu/bits/signum.h \
+ /usr/include/i386-linux-gnu/bits/siginfo.h \
+ /usr/include/i386-linux-gnu/bits/sigaction.h \
+ /usr/include/i386-linux-gnu/bits/sigcontext.h \
+ /usr/include/i386-linux-gnu/asm/sigcontext.h /usr/include/linux/types.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/i386-linux-gnu/bits/sigstack.h \
+ /usr/include/i386-linux-gnu/sys/ucontext.h \
+ /usr/include/i386-linux-gnu/bits/sigthread.h /usr/include/c++/4.6/memory \
+ /usr/include/c++/4.6/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.6/backward/auto_ptr.h /usr/include/c++/4.6/set \
+ /usr/include/c++/4.6/bits/stl_set.h \
+ /usr/include/c++/4.6/bits/stl_multiset.h \
+ ../../include/firtex/utility/DateTime.h \
+ ../../include/firtex/utility/Timespan.h \
+ ../../include/firtex/index/IndexReader.h \
+ ../../include/firtex/common/Notifiable.h \
+ ../../include/firtex/common/Notification.h /usr/include/c++/4.6/typeinfo \
+ ../../include/firtex/store/FileSystem.h \
+ ../../include/firtex/store/InputStream.h \
+ ../../include/firtex/store/OutputStream.h \
+ ../../include/firtex/utility/MMapFile.h \
+ ../../include/firtex/config/GlobalConfig.h /usr/include/c++/4.6/list \
+ /usr/include/c++/4.6/bits/stl_list.h /usr/include/c++/4.6/bits/list.tcc \
+ ../../include/firtex/config/Configurator.h \
+ ../../include/firtex/utility/Iterator.h \
+ ../../include/firtex/utility/Number.h ../../include/firtex/common/Any.h \
+ ../../include/firtex/utility/NumberParser.h /usr/include/c++/4.6/cstdio \
+ ../../include/firtex/utility/File.h \
+ ../../include/firtex/utility/File_LINUX.h \
+ ../../include/firtex/common/IO.h ../../include/firtex/common/IO_POSIX.h \
+ /usr/include/i386-linux-gnu/sys/time.h \
+ /usr/include/i386-linux-gnu/sys/stat.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ ../../include/firtex/document/Document.h \
+ ../../include/firtex/document/DocumentType.h \
+ ../../include/firtex/thread/SynchronizedObject.h \
+ ../../include/firtex/thread/Mutex.h \
+ ../../include/firtex/document/Field.h \
+ ../../include/firtex/analyzer/TokenView.h \
+ ../../include/firtex/utility/StringPool.h \
+ ../../include/firtex/utility/Charset.h \
+ ../../include/firtex/analyzer/Token.h \
+ ../../include/firtex/utility/String.h ../../include/firtex/index/Term.h \
+ ../../include/firtex/document/FieldSchema.h \
+ ../../include/firtex/document/FieldType.h \
+ ../../include/firtex/document/TypedDocument.h \
+ ../../include/firtex/document/DocumentSchema.h \
+ ../../include/firtex/document/FieldDefinition.h \
+ ../../include/firtex/index/IndexBarrelReader.h \
+ ../../include/firtex/index/StoredFieldsReader.h \
+ ../../include/firtex/index/FieldSelector.h \
+ ../../include/firtex/index/FieldFilter.h \
+ ../../include/firtex/index/ResultDoc.h \
+ ../../include/firtex/utility/LinkedHashMap.h \
+ ../../include/firtex/utility/HashComparator.h \
+ ../../include/firtex/utility/Hash.h \
+ ../../include/firtex/store/InputStreamPool.h \
+ ../../include/firtex/index/TermPostingIterator.h \
+ ../../include/firtex/index/Term.h ../../include/firtex/index/TermMeta.h \
+ ../../include/firtex/index/PostingDecoder.h \
+ ../../include/firtex/index/FieldIndexer.h \
+ ../../include/firtex/document/AnalyzedField.h \
+ ../../include/firtex/index/TermReader.h \
+ ../../include/firtex/index/TermIterator.h \
+ ../../include/firtex/index/BarrelDirectory.h \
+ ../../include/firtex/utility/Path.h \
+ ../../include/firtex/utility/BitVector.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+ /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+ /usr/include/i386-linux-gnu/bits/xopen_lim.h \
+ ../../include/firtex/index/BarrelsInfo.h \
+ ../../include/firtex/index/PostingPool.h \
+ ../../include/firtex/utility/LooseBoundedPool.h \
+ ../../include/firtex/utility/SimpleAllocator.h \
+ ../../include/firtex/utility/BoundedChunkAllocator.h \
+ ../../include/firtex/utility/SyncSegregatedAllocator.h \
+ ../../include/firtex/utility/SimpleSegregatedAllocator.h \
+ ../../include/firtex/utility/TypedSimpleChunkedPool.h \
+ ../../include/firtex/utility/Pool.h \
+ ../../include/firtex/index/ComponentBuilder.h \
+ ../../include/firtex/index/FieldComponentCreator.h \
+ ../../include/firtex/index/FieldMerger.h \
+ ../../include/firtex/utility/PriorityQueue.h \
+ ../../include/firtex/index/MergeInfo.h \
+ ../../include/firtex/index/DocIdRecycling.h \
+ ../../include/firtex/utility/SlicedVector.h \
+ ../../include/firtex/utility/MiscUtil.h \
+ ../../include/firtex/index/ForwardIndexIterator.h \
+ ../../include/firtex/index/TermReader.h \
+ ../../include/firtex/index/LengthNormIterator.h \
+ ../../include/firtex/index/TypedForwardIndexIterator.h \
+ ../../include/firtex/index/ForwardIndexCreator.h \
+ ../../include/firtex/index/ForwardIndexIteratorTraits.h \
+ ../../include/firtex/index/ForwardIndexReader.h \
+ ../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexReaderMMapImpl.h \
+ ../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexReader.h \
+ ../../include/firtex/index/TermInfo.h \
+ ../../include/firtex/index/DeletedDocumentFilter.h \
+ ../../include/firtex/index/LengthNormReader.h \
+ ../../include/firtex/index/IndexBarrelKeeper.h \
+ ../../include/firtex/analyzer/AnalyzerMapper.h \
+ ../../include/firtex/analyzer/Analyzer.h \
+ ../../include/firtex/utility/Reader.h \
+ ../../include/firtex/utility/Charset.h \
+ ../../include/firtex/analyzer/TokenFilter.h \
+ ../../include/firtex/analyzer/TokenSource.h \
+ ../../include/firtex/analyzer/TokenView.h \
+ ../../include/firtex/index/PrimaryKeyIndex.h \
+ ../../include/firtex/index/primarykey/PrimaryKeyTermReader.h \
+ ../../include/firtex/index/primarykey/PrimaryKeyIndexer.h \
+ ../../include/firtex/utility/HashMap.h \
+ ../../include/firtex/index/InMemoryTermReader.h \
+ ../../include/firtex/index/MultiTermReader.h \
+ ../../include/firtex/index/CommitScheduler.h \
+ ../../include/firtex/index/IndexBarrelWriter.h \
+ ../../include/firtex/common/Notifier.h \
+ ../../include/firtex/index/StoredFieldsWriter.h \
+ ../../include/firtex/document/AnalyzedDocument.h \
+ ../../include/firtex/index/LengthNormWriter.h \
+ ../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexWriter.h \
+ ../../include/firtex/index/ForwardIndexWriter.h \
+ ../../include/firtex/index/Committable.h \
+ ../../include/firtex/index/IndexCleaner.h \
+ ../../include/firtex/search/QueryHits.h \
+ ../../include/firtex/search/HitQueue.h \
+ ../../include/firtex/search/Sorter.h \
+ ../../include/firtex/search/MatchComparator.h \
+ ../../include/firtex/search/ScoredDoc.h \
+ ../../include/firtex/search/SortClause.h \
+ ../../include/firtex/search/Clause.h \
+ ../../include/firtex/queryparser/ExprParser.h \
+ ../../include/firtex/search/ExprEvaluator.h \
+ ../../include/firtex/queryparser/ExprNode.h \
+ ../../include/firtex/search/QueryTracer.h \
+ ../../include/firtex/search/QueryTracerAppender.h \
+ ../../include/firtex/common/LayoutAppender.h \
+ ../../include/firtex/search/Query.h \
+ ../../include/firtex/search/FeatureProvider.h \
+ ../../include/firtex/search/Similarity.h \
+ ../../include/firtex/search/IndexFeature.h \
+ ../../include/firtex/search/QueryFeature.h \
+ ../../include/firtex/search/TermQueryFeature.h \
+ ../../include/firtex/search/QueryExecutor.h \
+ ../../include/firtex/search/HitCollector.h \
+ ../../include/firtex/search/MatchedDocSet.h \
+ ../../include/firtex/search/MatchedDoc.h \
+ ../../include/firtex/search/DocScoreFeature.h \
+ ../../include/firtex/search/TermScoreFeature.h \
+ ../../include/firtex/search/Filter.h \
+ ../../include/firtex/search/FilterClause.h \
+ ../../include/firtex/search/Scorer.h \
+ ../../include/firtex/search/Statement.h \
+ ../../include/firtex/search/QueryClause.h \
+ ../../include/firtex/search/ParameterClause.h \
+ ../../include/firtex/search/FieldSelectClause.h \
+ ../../include/firtex/search/DocSelectClause.h \
+ ../../include/firtex/search/SimpleHitCollector.h \
+ ../../include/firtex/search/SortedHitCollector.h \
+ ../../include/firtex/search/ScorerProfileFactory.h \
+ ../../include/firtex/search/ScorerProfile.h \
+ ../../include/firtex/queryparser/QueryParser.h
+
+../../include/firtex/search/IndexSearcher.h:
+
+../../include/firtex/common/StdHeader.h:
+
+../../include/firtex/common/Common.h:
+
+../../include/firtex/common/IndexDefines.h:
+
+../../include/firtex/common/Platform.h:
+
+../../include/firtex/common/Compiler_GCC.h:
+
+../../include/firtex/common/IntTypes.h:
+
+/usr/include/c++/4.6/limits:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h:
+
+/usr/include/c++/4.6/ostream:
+
+/usr/include/c++/4.6/ios:
+
+/usr/include/c++/4.6/iosfwd:
+
+/usr/include/c++/4.6/bits/stringfwd.h:
+
+/usr/include/c++/4.6/bits/postypes.h:
+
+/usr/include/c++/4.6/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/i386-linux-gnu/bits/wchar.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/bits/wchar2.h:
+
+/usr/include/c++/4.6/exception:
+
+/usr/include/c++/4.6/bits/char_traits.h:
+
+/usr/include/c++/4.6/bits/stl_algobase.h:
+
+/usr/include/c++/4.6/bits/functexcept.h:
+
+/usr/include/c++/4.6/bits/exception_defines.h:
+
+/usr/include/c++/4.6/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.6/ext/type_traits.h:
+
+/usr/include/c++/4.6/ext/numeric_traits.h:
+
+/usr/include/c++/4.6/bits/stl_pair.h:
+
+/usr/include/c++/4.6/bits/move.h:
+
+/usr/include/c++/4.6/bits/concept_check.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.6/bits/stl_iterator.h:
+
+/usr/include/c++/4.6/debug/debug.h:
+
+/usr/include/c++/4.6/bits/localefwd.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++locale.h:
+
+/usr/include/c++/4.6/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/i386-linux-gnu/bits/locale.h:
+
+/usr/include/c++/4.6/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/4.6/bits/ios_base.h:
+
+/usr/include/c++/4.6/ext/atomicity.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/gthr.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/bits/sched.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/timex.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/i386-linux-gnu/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/i386-linux-gnu/bits/posix_opt.h:
+
+/usr/include/i386-linux-gnu/bits/environments.h:
+
+/usr/include/i386-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/atomic_word.h:
+
+/usr/include/c++/4.6/bits/locale_classes.h:
+
+/usr/include/c++/4.6/string:
+
+/usr/include/c++/4.6/bits/allocator.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h:
+
+/usr/include/c++/4.6/ext/new_allocator.h:
+
+/usr/include/c++/4.6/new:
+
+/usr/include/c++/4.6/bits/ostream_insert.h:
+
+/usr/include/c++/4.6/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.6/bits/stl_function.h:
+
+/usr/include/c++/4.6/backward/binders.h:
+
+/usr/include/c++/4.6/bits/range_access.h:
+
+/usr/include/c++/4.6/bits/basic_string.h:
+
+/usr/include/c++/4.6/initializer_list:
+
+/usr/include/c++/4.6/bits/basic_string.tcc:
+
+/usr/include/c++/4.6/bits/locale_classes.tcc:
+
+/usr/include/c++/4.6/streambuf:
+
+/usr/include/c++/4.6/bits/streambuf.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.h:
+
+/usr/include/c++/4.6/bits/locale_facets.h:
+
+/usr/include/c++/4.6/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_base.h:
+
+/usr/include/c++/4.6/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.6/i686-linux-gnu/./bits/ctype_inline.h:
+
+/usr/include/c++/4.6/bits/locale_facets.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.tcc:
+
+/usr/include/c++/4.6/bits/ostream.tcc:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+../../include/firtex/common/TypeDefs.h:
+
+/usr/include/c++/4.6/cstddef:
+
+../../include/firtex/common/tchar.h:
+
+../../include/firtex/common/Portability.h:
+
+../../include/firtex/config.h:
+
+../../include/firtex/common/Logger.h:
+
+../../include/firtex/common/SharedPtr.h:
+
+../../include/firtex/utility/Exception.h:
+
+../../include/firtex/utility/StringUtils.h:
+
+/usr/include/c++/4.6/vector:
+
+/usr/include/c++/4.6/bits/stl_construct.h:
+
+/usr/include/c++/4.6/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.6/bits/stl_vector.h:
+
+/usr/include/c++/4.6/bits/stl_bvector.h:
+
+/usr/include/c++/4.6/bits/vector.tcc:
+
+/usr/include/c++/4.6/cstring:
+
+/usr/include/string.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
+/usr/include/c++/4.6/sstream:
+
+/usr/include/c++/4.6/istream:
+
+/usr/include/c++/4.6/bits/istream.tcc:
+
+/usr/include/c++/4.6/bits/sstream.tcc:
+
+/usr/include/c++/4.6/algorithm:
+
+/usr/include/c++/4.6/utility:
+
+/usr/include/c++/4.6/bits/stl_relops.h:
+
+/usr/include/c++/4.6/bits/stl_algo.h:
+
+/usr/include/c++/4.6/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+/usr/include/c++/4.6/bits/algorithmfwd.h:
+
+/usr/include/c++/4.6/bits/stl_heap.h:
+
+/usr/include/c++/4.6/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.6/iostream:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
+/usr/include/assert.h:
+
+../../include/firtex/thread/AtomicCount.h:
+
+../../include/firtex/thread/Atomic.h:
+
+../../include/firtex/thread/atomic/MemoryOrder.h:
+
+../../include/firtex/thread/atomic/AtomicOperations.h:
+
+../../include/firtex/thread/atomic/AtomicImpl.h:
+
+../../include/firtex/thread/atomic/Barrier.h:
+
+../../include/firtex/thread/atomic/Barrier_GCC.h:
+
+../../include/firtex/thread/atomic/AtomicIntegrals.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_fence.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_cas32.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_xchg32.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_xadd32.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_load32.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_store32.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_loadptr.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_storeptr.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_spinlock.h:
+
+../../include/firtex/thread/atomic/Atomic_GCC_X86_atomic_bool.h:
+
+../../include/firtex/thread/atomic/IsAligned.h:
+
+../../include/firtex/thread/atomic/AtomicTypedOps.h:
+
+../../include/firtex/thread/atomic/AtomicInt.h:
+
+../../include/firtex/common/Appender.h:
+
+../../include/firtex/config/Configurable.h:
+
+../../include/firtex/utility/Singleton.h:
+
+../../include/firtex/thread/FastMutex.h:
+
+../../include/firtex/utility/NonCopyable.h:
+
+../../include/firtex/thread/ScopedLock.h:
+
+../../include/firtex/thread/FastMutex_POSIX.h:
+
+../../include/firtex/thread/Mutex_POSIX.h:
+
+/usr/include/errno.h:
+
+/usr/include/i386-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/i386-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../../include/firtex/common/LoggingLevel.h:
+
+../../include/firtex/common/LoggingEvent.h:
+
+../../include/firtex/utility/Timestamp.h:
+
+/usr/include/c++/4.6/ctime:
+
+../../include/firtex/thread/Thread.h:
+
+../../include/firtex/thread/ThreadLocal.h:
+
+/usr/include/c++/4.6/map:
+
+/usr/include/c++/4.6/bits/stl_tree.h:
+
+/usr/include/c++/4.6/bits/stl_map.h:
+
+/usr/include/c++/4.6/bits/stl_multimap.h:
+
+../../include/firtex/thread/Thread_POSIX.h:
+
+../../include/firtex/thread/Runnable.h:
+
+../../include/firtex/thread/Event.h:
+
+../../include/firtex/thread/Event_POSIX.h:
+
+../../include/firtex/thread/RWLock.h:
+
+../../include/firtex/thread/RWLock_POSIX.h:
+
+/usr/include/signal.h:
+
+/usr/include/i386-linux-gnu/bits/signum.h:
+
+/usr/include/i386-linux-gnu/bits/siginfo.h:
+
+/usr/include/i386-linux-gnu/bits/sigaction.h:
+
+/usr/include/i386-linux-gnu/bits/sigcontext.h:
+
+/usr/include/i386-linux-gnu/asm/sigcontext.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/i386-linux-gnu/asm/types.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/i386-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/i386-linux-gnu/asm/posix_types.h:
+
+/usr/include/i386-linux-gnu/asm/posix_types_32.h:
+
+/usr/include/i386-linux-gnu/bits/sigstack.h:
+
+/usr/include/i386-linux-gnu/sys/ucontext.h:
+
+/usr/include/i386-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/4.6/memory:
+
+/usr/include/c++/4.6/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.6/backward/auto_ptr.h:
+
+/usr/include/c++/4.6/set:
+
+/usr/include/c++/4.6/bits/stl_set.h:
+
+/usr/include/c++/4.6/bits/stl_multiset.h:
+
+../../include/firtex/utility/DateTime.h:
+
+../../include/firtex/utility/Timespan.h:
+
+../../include/firtex/index/IndexReader.h:
+
+../../include/firtex/common/Notifiable.h:
+
+../../include/firtex/common/Notification.h:
+
+/usr/include/c++/4.6/typeinfo:
+
+../../include/firtex/store/FileSystem.h:
+
+../../include/firtex/store/InputStream.h:
+
+../../include/firtex/store/OutputStream.h:
+
+../../include/firtex/utility/MMapFile.h:
+
+../../include/firtex/config/GlobalConfig.h:
+
+/usr/include/c++/4.6/list:
+
+/usr/include/c++/4.6/bits/stl_list.h:
+
+/usr/include/c++/4.6/bits/list.tcc:
+
+../../include/firtex/config/Configurator.h:
+
+../../include/firtex/utility/Iterator.h:
+
+../../include/firtex/utility/Number.h:
+
+../../include/firtex/common/Any.h:
+
+../../include/firtex/utility/NumberParser.h:
+
+/usr/include/c++/4.6/cstdio:
+
+../../include/firtex/utility/File.h:
+
+../../include/firtex/utility/File_LINUX.h:
+
+../../include/firtex/common/IO.h:
+
+../../include/firtex/common/IO_POSIX.h:
+
+/usr/include/i386-linux-gnu/sys/time.h:
+
+/usr/include/i386-linux-gnu/sys/stat.h:
+
+/usr/include/i386-linux-gnu/bits/stat.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/i386-linux-gnu/bits/fcntl.h:
+
+/usr/include/i386-linux-gnu/bits/uio.h:
+
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
+
+/usr/include/i386-linux-gnu/sys/mman.h:
+
+/usr/include/i386-linux-gnu/bits/mman.h:
+
+../../include/firtex/document/Document.h:
+
+../../include/firtex/document/DocumentType.h:
+
+../../include/firtex/thread/SynchronizedObject.h:
+
+../../include/firtex/thread/Mutex.h:
+
+../../include/firtex/document/Field.h:
+
+../../include/firtex/analyzer/TokenView.h:
+
+../../include/firtex/utility/StringPool.h:
+
+../../include/firtex/utility/Charset.h:
+
+../../include/firtex/analyzer/Token.h:
+
+../../include/firtex/utility/String.h:
+
+../../include/firtex/index/Term.h:
+
+../../include/firtex/document/FieldSchema.h:
+
+../../include/firtex/document/FieldType.h:
+
+../../include/firtex/document/TypedDocument.h:
+
+../../include/firtex/document/DocumentSchema.h:
+
+../../include/firtex/document/FieldDefinition.h:
+
+../../include/firtex/index/IndexBarrelReader.h:
+
+../../include/firtex/index/StoredFieldsReader.h:
+
+../../include/firtex/index/FieldSelector.h:
+
+../../include/firtex/index/FieldFilter.h:
+
+../../include/firtex/index/ResultDoc.h:
+
+../../include/firtex/utility/LinkedHashMap.h:
+
+../../include/firtex/utility/HashComparator.h:
+
+../../include/firtex/utility/Hash.h:
+
+../../include/firtex/store/InputStreamPool.h:
+
+../../include/firtex/index/TermPostingIterator.h:
+
+../../include/firtex/index/Term.h:
+
+../../include/firtex/index/TermMeta.h:
+
+../../include/firtex/index/PostingDecoder.h:
+
+../../include/firtex/index/FieldIndexer.h:
+
+../../include/firtex/document/AnalyzedField.h:
+
+../../include/firtex/index/TermReader.h:
+
+../../include/firtex/index/TermIterator.h:
+
+../../include/firtex/index/BarrelDirectory.h:
+
+../../include/firtex/utility/Path.h:
+
+../../include/firtex/utility/BitVector.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/i386-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/i386-linux-gnu/bits/xopen_lim.h:
+
+../../include/firtex/index/BarrelsInfo.h:
+
+../../include/firtex/index/PostingPool.h:
+
+../../include/firtex/utility/LooseBoundedPool.h:
+
+../../include/firtex/utility/SimpleAllocator.h:
+
+../../include/firtex/utility/BoundedChunkAllocator.h:
+
+../../include/firtex/utility/SyncSegregatedAllocator.h:
+
+../../include/firtex/utility/SimpleSegregatedAllocator.h:
+
+../../include/firtex/utility/TypedSimpleChunkedPool.h:
+
+../../include/firtex/utility/Pool.h:
+
+../../include/firtex/index/ComponentBuilder.h:
+
+../../include/firtex/index/FieldComponentCreator.h:
+
+../../include/firtex/index/FieldMerger.h:
+
+../../include/firtex/utility/PriorityQueue.h:
+
+../../include/firtex/index/MergeInfo.h:
+
+../../include/firtex/index/DocIdRecycling.h:
+
+../../include/firtex/utility/SlicedVector.h:
+
+../../include/firtex/utility/MiscUtil.h:
+
+../../include/firtex/index/ForwardIndexIterator.h:
+
+../../include/firtex/index/TermReader.h:
+
+../../include/firtex/index/LengthNormIterator.h:
+
+../../include/firtex/index/TypedForwardIndexIterator.h:
+
+../../include/firtex/index/ForwardIndexCreator.h:
+
+../../include/firtex/index/ForwardIndexIteratorTraits.h:
+
+../../include/firtex/index/ForwardIndexReader.h:
+
+../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexReaderMMapImpl.h:
+
+../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexReader.h:
+
+../../include/firtex/index/TermInfo.h:
+
+../../include/firtex/index/DeletedDocumentFilter.h:
+
+../../include/firtex/index/LengthNormReader.h:
+
+../../include/firtex/index/IndexBarrelKeeper.h:
+
+../../include/firtex/analyzer/AnalyzerMapper.h:
+
+../../include/firtex/analyzer/Analyzer.h:
+
+../../include/firtex/utility/Reader.h:
+
+../../include/firtex/utility/Charset.h:
+
+../../include/firtex/analyzer/TokenFilter.h:
+
+../../include/firtex/analyzer/TokenSource.h:
+
+../../include/firtex/analyzer/TokenView.h:
+
+../../include/firtex/index/PrimaryKeyIndex.h:
+
+../../include/firtex/index/primarykey/PrimaryKeyTermReader.h:
+
+../../include/firtex/index/primarykey/PrimaryKeyIndexer.h:
+
+../../include/firtex/utility/HashMap.h:
+
+../../include/firtex/index/InMemoryTermReader.h:
+
+../../include/firtex/index/MultiTermReader.h:
+
+../../include/firtex/index/CommitScheduler.h:
+
+../../include/firtex/index/IndexBarrelWriter.h:
+
+../../include/firtex/common/Notifier.h:
+
+../../include/firtex/index/StoredFieldsWriter.h:
+
+../../include/firtex/document/AnalyzedDocument.h:
+
+../../include/firtex/index/LengthNormWriter.h:
+
+../../include/firtex/index/forwardindex/PrimitiveTypeForwardIndexWriter.h:
+
+../../include/firtex/index/ForwardIndexWriter.h:
+
+../../include/firtex/index/Committable.h:
+
+../../include/firtex/index/IndexCleaner.h:
+
+../../include/firtex/search/QueryHits.h:
+
+../../include/firtex/search/HitQueue.h:
+
+../../include/firtex/search/Sorter.h:
+
+../../include/firtex/search/MatchComparator.h:
+
+../../include/firtex/search/ScoredDoc.h:
+
+../../include/firtex/search/SortClause.h:
+
+../../include/firtex/search/Clause.h:
+
+../../include/firtex/queryparser/ExprParser.h:
+
+../../include/firtex/search/ExprEvaluator.h:
+
+../../include/firtex/queryparser/ExprNode.h:
+
+../../include/firtex/search/QueryTracer.h:
+
+../../include/firtex/search/QueryTracerAppender.h:
+
+../../include/firtex/common/LayoutAppender.h:
+
+../../include/firtex/search/Query.h:
+
+../../include/firtex/search/FeatureProvider.h:
+
+../../include/firtex/search/Similarity.h:
+
+../../include/firtex/search/IndexFeature.h:
+
+../../include/firtex/search/QueryFeature.h:
+
+../../include/firtex/search/TermQueryFeature.h:
+
+../../include/firtex/search/QueryExecutor.h:
+
+../../include/firtex/search/HitCollector.h:
+
+../../include/firtex/search/MatchedDocSet.h:
+
+../../include/firtex/search/MatchedDoc.h:
+
+../../include/firtex/search/DocScoreFeature.h:
+
+../../include/firtex/search/TermScoreFeature.h:
+
+../../include/firtex/search/Filter.h:
+
+../../include/firtex/search/FilterClause.h:
+
+../../include/firtex/search/Scorer.h:
+
+../../include/firtex/search/Statement.h:
+
+../../include/firtex/search/QueryClause.h:
+
+../../include/firtex/search/ParameterClause.h:
+
+../../include/firtex/search/FieldSelectClause.h:
+
+../../include/firtex/search/DocSelectClause.h:
+
+../../include/firtex/search/SimpleHitCollector.h:
+
+../../include/firtex/search/SortedHitCollector.h:
+
+../../include/firtex/search/ScorerProfileFactory.h:
+
+../../include/firtex/search/ScorerProfile.h:
+
+../../include/firtex/queryparser/QueryParser.h:

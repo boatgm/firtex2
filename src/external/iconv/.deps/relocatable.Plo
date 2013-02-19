@@ -1,0 +1,5 @@
+relocatable.lo: relocatable.c config.h relocatable.h
+
+config.h:
+
+relocatable.h:
