@@ -18,3 +18,6 @@
 test/*
 bin/*
 
+autom4te.cache
+Makefile
+Makefile.in
