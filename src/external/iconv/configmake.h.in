@@ -1,6 +1,0 @@
-#ifndef __FX_CONFIGMAKE_H
-#define __FX_CONFIGMAKE_H
-
-#define LIBDIR "@prefix@/lib/"
-
-#endif

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<configure>
-  <global>
-    <general>
-      <dictionary_path>../../../sysdata</dictionary_path>
-    </general>
-  </global>
-</configure>
